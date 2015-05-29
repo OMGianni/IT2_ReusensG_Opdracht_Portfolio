@@ -1,0 +1,110 @@
+.slide {
+	width: 100.2%;
+	background-color: lightgrey;
+	z-index: 1;
+	background: rgba(110,110,110,0.7);
+}
+
+#projects, #blog, #contact {
+	width: 9em;
+	height: 10em;
+	margin: 0.5em 0.5em;
+	font-size: 2.7em;
+	text-align: center;
+	font-family: Open sans;
+	color: #141414;
+	background-color: grey;
+	display: inline-block;
+	opacity: 0.9;
+}
+
+#projects h2, #blog h2, #contact h2 {
+	position: relative;
+	top: 1.7em;
+	opacity: 1;
+}
+
+#projects a, #blog a, #contact a {
+	text-decoration: none;
+	color: #141414;
+}
+
+#projects a:hover, #blog a:hover, #contact a:hover {
+	text-decoration: none;
+	color: #141414;
+	border-bottom: 3px solid #141414;
+	border-top: 3px solid #141414;
+}
+
+#projects {
+	margin-left: 0.85em;
+	background-image: url('projects.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#blog {
+	background-image: url('blog.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#contact {
+	background-image: url('contact.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.arrows {
+	width: 100.3%;
+	height: 3em;
+	border-bottom: 2px solid darkgrey;
+	background-color: white;
+	opacity: 0.85;
+	cursor: pointer;
+}
+
+.arrows img {
+	width: 5%;
+	margin-left: 13em;
+	padding-top: 0.2em;
+}
+
+.upsidedown {
+	transform: rotate(180deg);
+	padding-bottom: 0.2em;
+}
+
+h1 {
+	font-family: Open sans;
+	font-size: 12em;
+	text-align: center;
+	z-index: 1;
+	margin-top: -2.4em;
+}
+
+h3 {
+	font-family: Open sans;
+	font-size: 9em;
+	text-align: center;
+	margin-top: 2.2em;
+	z-index: -1;
+	font-style: oblique;
+	color: lightgrey;
+}
+
+#background {
+	background-image: url('achtergrond3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	position: absolute;
+	top: 0.5em;
+	width: 99%;
+	height: 98%;
+	z-index: -2;
+}
+
+.hidden {
+	display: none;
+}

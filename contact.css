@@ -1,0 +1,178 @@
+#background {
+	background-image: url('achtergrond3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	position: absolute;
+	top: 0.5em;
+	width: 99%;
+	height: 98%;
+	z-index: -3;
+}
+
+h1 {
+	font-family: Open sans;
+	font-size: 12em;
+	text-align: center;
+	z-index: 1;
+	margin-top: -2.4em;
+}
+
+h3 {
+	font-family: Open sans;
+	font-size: 9em;
+	text-align: center;
+	margin-top: 2.2em;
+	z-index: -1;
+	font-style: oblique;
+	color: lightgrey;
+}
+
+ul {
+	height: 100%;
+	position: absolute;
+	top: 2.7em;
+	left: -2em;
+	width: 100%;
+	z-index: -2;
+}
+
+ul li {
+	width: 23%;
+	padding-top: 1.26em;
+	padding-bottom: 1.25em;
+	font-family: Open Sans;
+	font-size: 1.04em;
+	list-style-type: none;
+	text-align: center;
+	z-index: -2;
+}
+
+.down {
+	z-index: -2;
+}
+
+#punt1 {
+	color: #BFBFBF;
+	background-color: #404040;
+}
+
+#punt2 {
+	color: #B0B0B0;
+	background-color: #595959;
+}
+
+#punt3 {
+	color: #484848;
+	background-color: #737373;
+}
+
+#punt4 {
+	color: #404040;
+	background-color: #9C9C9C;
+}
+
+#punt5 {
+	color: #303030;
+	background-color: #BFBFBF;
+}
+
+.hidden {
+	display: none;
+}
+
+.map {
+	background-image: url('map.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.95;
+	color: white;
+	border: 1px solid darkgrey;
+	border-radius: 6px;
+	height: 28em;
+	width: 65%;
+	padding: 2em;
+	position: absolute;
+	top: 5em;
+	left: 22em;
+	font-family: Open Sans;
+	z-index: -2;
+}
+
+.slide {
+	width: 100.2%;
+	background-color: lightgrey;
+	z-index: -1;
+	background: rgba(110,110,110,0.7);
+}
+
+#projects, #blog, #contact {
+	width: 9em;
+	height: 10em;
+	margin: 0.5em 0.5em;
+	font-size: 2.7em;
+	text-align: center;
+	font-family: Open sans;
+	color: #141414;
+	background-color: grey;
+	display: inline-block;
+	opacity: 0.9;
+}
+
+#projects h2, #blog h2, #contact h2 {
+	position: relative;
+	top: 1.7em;
+	opacity: 1;
+}
+
+#projects a, #blog a, #contact a {
+	text-decoration: none;
+	color: #141414;
+}
+
+#projects a:hover, #blog a:hover, #contact a:hover {
+	text-decoration: none;
+	color: #141414;
+	border-bottom: 3px solid #141414;
+	border-top: 3px solid #141414;
+}
+
+#projects {
+	margin-left: 0.85em;
+	background-image: url('projects.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#blog {
+	background-image: url('blog.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#contact {
+	background-image: url('contact.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.arrows {
+	width: 100.3%;
+	height: 3em;
+	border-bottom: 2px solid darkgrey;
+	background-color: white;
+	opacity: 0.85;
+	cursor: pointer;
+	z-index: -1;
+}
+
+.arrows img {
+	width: 5%;
+	margin-left: 13em;
+	padding-top: 0.2em;
+}
+
+.upsidedown {
+	transform: rotate(180deg);
+	padding-bottom: 0.2em;
+}
